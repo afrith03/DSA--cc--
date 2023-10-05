@@ -8,6 +8,7 @@ void printArray(int arr[], int size)
         cout << arr[i] << " ";
     }
 };
+// Swap alternate elements in an array
 void swapAlternate(int arr[], int size)
 {
     for (int i = 0; i < size; i += 2)
@@ -20,8 +21,6 @@ void swapAlternate(int arr[], int size)
 }
 int main()
 {
-    cout << "Hello World!";
-
     // code here
     int arr[6] = {1, 3, 2, 4, 3, 5};
     swapAlternate(arr, 6);
